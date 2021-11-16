@@ -13,7 +13,7 @@
 * JavaScript
 
 #### Website & visual below!:
-https://skyllarb.github.io/friendly-coconut/
+https://skyllarb.github.io/friendly-coconut
 
 ![challenge-2](https://user-images.githubusercontent.com/85655122/124179909-72683380-da81-11eb-8908-a081b36f59f9.jpg)
 

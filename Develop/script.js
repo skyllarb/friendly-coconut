@@ -1,17 +1,11 @@
-// Assignment code here
+document.querySelector('#generate').addEventListener('click', givePassword)
 
+var randomNumber = "0123456789";
+var upperCase = "ABCDEFGIJKLMNOPQRSTUVWXYZ";
+var lowerCase = "abcdefghijklmnopqrstuvwxyz";
+var randomSymbol = "~!@#$%^&*(){}[]_ -";
+var min = [8];
+var max = [128];
+confirmPasswordLength = (min || max);
+var selectedCharacter = "";
 
-// Get references to the #generate element
-var generateBtn = document.querySelector("#generate");
-
-// Write password to the #password input
-function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
-  passwordText.value = password;
-
-}
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
