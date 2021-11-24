@@ -25,19 +25,19 @@ document.querySelector("#generate").addEventListener("click", writePassword);
     selectedCharacter = "";
   }
  
-  // Length of password
+
   var passwordLength = function() {
   var confirmPasswordLength = window.prompt("How many characters would you like your password to contain? Must contain at least 8-129 characters.");
   return confirmPasswordLength;
   }
-// Include numbers
+
   function confirmRandomNums() {
   var randomNums = window.confirm("Do you want to add numbers?"); 
   if (randomNums) {
   selectedCharacter += randomNumber
   }
 }
-// Include uppercase 
+
   function confirmUpperCase() {
     var bigLetters = window.confirm("Do you want uppercase letters?");
     if (bigLetters) {
@@ -45,7 +45,7 @@ document.querySelector("#generate").addEventListener("click", writePassword);
     }
   }
 
-  // Include lowercase
+
   function confirmLowerCase() {
     var smallLetters = window.confirm("Do you want lowercase letters?");
     if (smallLetters) {
@@ -53,7 +53,7 @@ document.querySelector("#generate").addEventListener("click", writePassword);
     }
   }
 
-  // Include special characters
+
   function confirmSpecialCharacters() {
     var randomSpecials = window.confirm("Do you want special characters?");
     if (randomSpecials) {
